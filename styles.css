@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: overpass;
+}
+
+
+.wrapper {
+    background-color: hsl(216, 12%, 8%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    padding: 2em;
+    background: hsl(213, 19%, 18%);
+    background: linear-gradient(hsl(213, 19%, 18%) 0%, hsl(216, 12%, 8%) 100%);
+    width: 25em;
+    height: 10em;
+    border-radius: 25px;
+}
+
+.iconoContainer svg {
+    padding: 1em;
+    background-color: hsl(217, 12%, 63%);
+}
+
+.textoContainer h2 {
+    font-family: overpass;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
