@@ -17,22 +17,90 @@
     align-items: center;
 }
 
-.display {
+.display1 {
     padding: 2em;
-    background: hsl(213, 19%, 18%);
-    background: linear-gradient(hsl(213, 19%, 18%) 0%, hsl(216, 12%, 8%) 100%);
+    background-color: #1F2630;
     width: 25em;
-    height: 10em;
     border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
 }
 
 .iconoContainer svg {
-    padding: 1em;
-    background-color: hsl(217, 12%, 63%);
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 4%;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #26303A;;
+    background-color: #26303A;;
 }
 
-.textoContainer h2 {
+.textoContainer h1 {
     font-family: overpass;
     font-weight: 700;
     color: hsl(0, 0%, 100%);
+    margin-bottom: .2em;
+}
+
+.textoContainer p {
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.botonesPuntuacion {
+    display: flex;
+    justify-content: space-around;
+}
+
+.botonesPuntuacion button {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: solid;
+    background-color: #26303A;
+    border-color: #26303A;
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    transition: all .2s;
+}
+
+.botonesPuntuacion button:hover {
+    background-color: hsl(25, 97%, 53%);
+    border-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+.botonesPuntuacion button:focus {
+    background-color: hsl(216, 12%, 54%);
+    border-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+
+.botonEnviar {
+    margin-top: 1em;
+    }
+
+.botonEnviar button {
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: 700;
+    border-style: solid;
+    border-radius: 5rem;
+    width: 100%;
+    height: 3em;
+    background-color: hsl(25, 97%, 53%);
+    border-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    transition: all .2s;
+}
+
+.botonEnviar button:hover {
+    background-color: hsl(0, 0%, 100%);
+    border-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
 }
