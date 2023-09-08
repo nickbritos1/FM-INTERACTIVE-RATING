@@ -13,3 +13,7 @@ boton.forEach(boton => {
 function botonElegido(boton) {
     let valor = boton.getAttribute("value");
 }
+
+
+
+// PRUEBA DE CONEXION
