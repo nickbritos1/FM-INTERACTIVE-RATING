@@ -15,5 +15,4 @@ function botonElegido(boton) {
 }
 
 
-
-// PRUEBA DE CONEXION
+const verga = 232;
